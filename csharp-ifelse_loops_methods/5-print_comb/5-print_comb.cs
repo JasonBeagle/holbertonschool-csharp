@@ -1,8 +1,8 @@
 ﻿using System;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         for(int i = 0; i < 100; i++)
         {
@@ -12,7 +12,7 @@ class Program
             }
             else
             {
-                Console.Write("{0}", i);
+                Console.Write("{0}\n", i);
             }
         }
     }
