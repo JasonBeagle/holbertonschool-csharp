@@ -11,7 +11,9 @@ class Program
                 Console.Write(i.ToString("D2") + ", ");
             }
             else
-                Console.Write(i);
+            {
+                Console.Write("{0}", i);
+            }
         }
     }
 }
