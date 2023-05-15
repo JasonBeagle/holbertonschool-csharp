@@ -11,6 +11,6 @@ public class Array
                 Console.Write(array[i] + " ");
             }
         }
-        Console.WriteLine("");
+        Console.WriteLine(" ");
     }
 }
