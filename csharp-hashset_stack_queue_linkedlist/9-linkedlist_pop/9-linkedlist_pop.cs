@@ -7,7 +7,7 @@ public class LList
     {
         if (myLList.Count == 0)
         return 0;
-        LinkedListNode<int> head = myLList.First!;
+        LinkedListNode<int> head = myLList.First;
         myLList.RemoveFirst();
         return head.Value;
     }
