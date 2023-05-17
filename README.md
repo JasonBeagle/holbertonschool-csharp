@@ -6,3 +6,4 @@
     C# - Data Structures: Arrays, Lists, Dictionaries
     C# - Data Structures: HashSet, Stack, Queue, LinkedList
     C# - Exceptions
+    C# - Structs, Enumerations
