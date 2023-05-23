@@ -7,3 +7,4 @@
     C# - Data Structures: HashSet, Stack, Queue, LinkedList
     C# - Exceptions
     C# - Structs, Enumerations
+    C# - Classes and Namespaces
