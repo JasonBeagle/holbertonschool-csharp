@@ -2,14 +2,10 @@
 
 namespace MyMath
 {
-    /// <summary>
-    /// public class Operations
-    ///</summary>
+    /// <summary>public class Operations</summary>
     public class Operations
     {
-        /// <summary>
-        /// Add function returning sum of a + b
-        /// </summary>
+        /// <summary>Add function returning sum of a + b</summary>
         public static int Add(int a, int b)
         {
             return a + b;
