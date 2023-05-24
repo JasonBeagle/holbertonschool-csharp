@@ -9,3 +9,4 @@
     C# - Structs, Enumerations
     C# - Classes and Namespaces
     C# - Test Driven Development
+    C# - Inheritance
