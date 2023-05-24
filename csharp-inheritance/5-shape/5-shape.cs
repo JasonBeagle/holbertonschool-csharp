@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-/// <summery> base class Shape </summary>
+/// <summary> base class Shape </summary>
 public class Shape
 {
     /// <summary> NotImplemented error </summary>
