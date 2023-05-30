@@ -10,3 +10,4 @@
     C# - Classes and Namespaces
     C# - Test Driven Development
     C# - Inheritance
+    C# - Linear Algebra
