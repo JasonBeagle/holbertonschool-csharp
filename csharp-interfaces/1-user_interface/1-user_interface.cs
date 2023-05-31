@@ -50,7 +50,7 @@ public abstract class Base
         return $"{Name} is a {this.GetType()}";
     }
 }
-
+/// <summary> TestObject </summary>
 public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     /// <summary>
