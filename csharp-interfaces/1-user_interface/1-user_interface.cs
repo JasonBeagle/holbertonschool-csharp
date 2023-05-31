@@ -39,7 +39,7 @@ public abstract class Base
     /// <summary>
     /// Gets or sets the name of the object.
     /// </summary>
-    public string Name { get; set; }
+    public string name { get; set; }
 
     /// <summary>
     /// Returns a string representation of the object.
@@ -47,7 +47,7 @@ public abstract class Base
     /// <returns>The string representation of the object.</returns>
     public override string ToString()
     {
-        return $"{Name} is a {this.GetType()}";
+        return $"{name} is a {this.GetType()}";
     }
 }
 /// <summary> TestObject </summary>
