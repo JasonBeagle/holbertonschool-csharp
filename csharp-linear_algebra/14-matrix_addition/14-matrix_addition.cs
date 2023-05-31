@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-/// <summary> Matrix class
+/// <summary> Matrix class </summary>
 public class MatrixMath
 {
     /// <summary> adds two matrices, returns result </summary>
