@@ -13,7 +13,7 @@ public interface IBreakable
     /// <summary>
     /// Gets or sets the durability of the object.
     /// </summary>
-    int Durability { get; set; }
+    int durability { get; set; }
 
     /// <summary>
     /// Breaks the object.
@@ -26,7 +26,7 @@ public interface ICollectable
     /// <summary>
     /// Gets or sets a value indicating whether the object is collected.
     /// </summary>
-    bool IsCollected { get; set; }
+    bool isCollected { get; set; }
 
     /// <summary>
     /// Collects the object.
@@ -56,12 +56,12 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
     /// <summary>
     /// Gets or sets the durability of the TestObject.
     /// </summary>
-    public int Durability { get; set; }
+    public int durability { get; set; }
 
     /// <summary>
     /// Gets or sets a value indicating whether the TestObject is collected.
     /// </summary>
-    public bool IsCollected { get; set; }
+    public bool isCollected { get; set; }
 
     /// <summary>
     /// Performs an interaction with the TestObject.
