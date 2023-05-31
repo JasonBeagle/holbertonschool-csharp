@@ -1,5 +1,5 @@
 ﻿using System;
-
+/// <summary> Queue class </summary>
 public class Queue<T>
 {
     /// <summary>
