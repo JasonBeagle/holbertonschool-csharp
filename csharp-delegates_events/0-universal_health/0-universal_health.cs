@@ -5,13 +5,13 @@ public class Player
 {
 
     /// <summary> player name </summary>
-    public string name { get; set; }
+    private string name { get; set; }
 
     /// <summary> player maxHp, 100 by default  </summary>
-    public float maxHp { get; set; }
+    private float maxHp { get; set; }
 
     /// <summary> player hp </summary>
-    public float hp { get; set; }
+    private float hp { get; set; }
 
     /// <summary> player constructor </summary>
     /// <param name="name">player name </param>
@@ -19,7 +19,7 @@ public class Player
     public Player(string name = "Player", float maxHp = 100f)
     {
         this.name = name;
-        if (maxHp > 0)
+        if (maxHp <= 0)
         {
             Console.WriteLine("maxHp must be greater than 0. maxHp set to 100f by default.");
             maxHp = 100f;
