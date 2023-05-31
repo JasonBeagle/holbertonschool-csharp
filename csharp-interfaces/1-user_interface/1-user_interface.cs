@@ -1,4 +1,5 @@
 ﻿using System;
+/// <summary> interactive interface </summary>
 public interface IInteractive
 {
     /// <summary>
@@ -6,7 +7,7 @@ public interface IInteractive
     /// </summary>
     void Interact();
 }
-
+/// <summary> IBreakable interface </summary>
 public interface IBreakable
 {
     /// <summary>
@@ -19,7 +20,7 @@ public interface IBreakable
     /// </summary>
     void Break();
 }
-
+/// <summary> ICollectable interface </summary>
 public interface ICollectable
 {
     /// <summary>
@@ -32,7 +33,7 @@ public interface ICollectable
     /// </summary>
     void Collect();
 }
-
+/// <summary> Base class </summary>
 public abstract class Base
 {
     /// <summary>
