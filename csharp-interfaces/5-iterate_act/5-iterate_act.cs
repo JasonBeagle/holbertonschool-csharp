@@ -163,7 +163,11 @@ public class RoomObjects
                 {
                     interactiveObject.Interact();
                 }
-                // Add other interface checks here if needed
+
+                if (obj is IBreakable breakableObject)
+                {
+                    breakableObject.Break();
+                }
             }
         }
     }
