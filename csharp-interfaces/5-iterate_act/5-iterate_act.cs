@@ -4,7 +4,8 @@ using System.Collections.Generic;
 /// <summary> Interactive interface </summary>
 public interface IInteractive
 {
-    void Interact(); // Performs an interaction.
+    /// <summary> performs interaction </summary>
+    void Interact();
 }
 
 /// <summary> IBreakable interface </summary>
@@ -136,11 +137,12 @@ public class Key : Base, ICollectable
 /// <summary> Door class </summary>
 public class Door : Base, IInteractive
 {
+    /// <summary> Door </summary>
     public Door(string name = "Door")
     {
         Name = name;
     }
-
+    /// <summary> door interaction </summary>
     public void Interact()
     {
         Console.WriteLine($"You try to open the {Name}. It's locked.");
@@ -150,6 +152,7 @@ public class Door : Base, IInteractive
 /// <summary> RoomObjects class </summary>
 public class RoomObjects
 {
+    /// <summary> action iteration </summary>
     public static void IterateAction(List<Base> roomObjects, Type type)
     {
         foreach (var obj in roomObjects)
