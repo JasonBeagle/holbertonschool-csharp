@@ -52,7 +52,7 @@ public class Decoration : Base, IInteractive, IBreakable
     /// <summary>
     /// Gets or sets a value indicating whether the decoration is a quest item.
     /// </summary>
-    public bool IsQuestItem { get; set; }
+    public bool isQuestItem { get; set; }
 
     /// <summary>
     /// Initializes a new instance of the <see cref="Decoration"/> class with the specified parameters.
@@ -68,7 +68,7 @@ public class Decoration : Base, IInteractive, IBreakable
             throw new ArgumentException("Durability must be greater than 0");
         }
         Durability = durability;
-        IsQuestItem = isQuestItem;
+        this.isQuestItem = isQuestItem;
     }
 
     /// <summary>
@@ -80,7 +80,7 @@ public class Decoration : Base, IInteractive, IBreakable
         {
             Console.WriteLine($"The {Name} has been broken.");
         }
-        else if (IsQuestItem)
+        else if (isQuestItem)
         {
             Console.WriteLine($"You look at the {Name}. There's a key inside.");
         }
