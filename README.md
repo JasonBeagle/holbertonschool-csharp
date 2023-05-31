@@ -13,3 +13,4 @@
     C# - Linear Algebra
     C# - Generics
     C# - Interfaces
+    C# - Delegates, Events
