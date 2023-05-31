@@ -5,9 +5,12 @@ public class Queue<T>
     /// <summary> Node class </summary>
     public class Node
     {
+        /// <summary> value of node </summary>
         public T value { get; set; }
+        /// <summary> next node </summary>
         public Node next { get; set; }
 
+        /// <summary> constructor for node </summary>
         public Node(T value)
         {
             this.value = value;
@@ -38,6 +41,7 @@ public class Queue<T>
         count++;
     }
 
+    /// <summary> gets count </summary>
     public int Count()
     {
         return count;
