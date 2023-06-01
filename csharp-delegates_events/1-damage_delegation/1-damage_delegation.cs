@@ -55,7 +55,7 @@ public class Player
     }
 
     /// <summary> method to heal damage </summary>
-    /// <param name="heal">heal amount </param
+    /// <param name="heal">heal amount </param>
     public void HealDamage(float heal)
     {
         if (heal <= 0)
